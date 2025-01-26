@@ -1,0 +1,135 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/student/Desktop/serial_adder2
+T_opt
+!s110 1737778243
+V^]>WZZ2nYfb0Ah3ZchR;G3
+Z1 04 2 4 work tb fast 0
+=1-8c47be149a35-67946443-2b9-dc8
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6c;65
+R0
+T_opt1
+!s110 1737080479
+Vda2=OFQMNz;L:MDNDcde13
+R1
+=1-8c47be149a35-6789be9f-204-4388
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1737778265
+Vg2FEkG@Ob?>3O@TD?D5;?1
+R1
+=1-8c47be149a35-67946459-272-4f60
+R4
+R2
+n@_opt2
+R3
+vadder
+Z5 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z6 !s110 1737778228
+!i10b 1
+!s100 Gl@4c?;1IX_bAnOH5I0F]2
+I=^S4hkh`PTO4fkYhMDeaQ3
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 !s105 serial_adder_sv_unit
+S1
+R0
+Z9 w1737775573
+Z10 8serial_adder.sv
+Z11 Fserial_adder.sv
+L0 48
+Z12 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z13 !s108 1737778228.000000
+Z14 !s107 serial_adder.sv|
+Z15 !s90 -reportprogress|300|serial_adder.sv|
+!i113 0
+Z16 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vgolden
+R5
+!s110 1737774672
+!i10b 1
+!s100 a4UUk`I2Okg1J[Y?QFBQ^2
+I;C=8zYkVaIB;=AOKRUJV21
+R7
+Z17 !s105 test_tb_sv_unit
+S1
+R0
+w1737774647
+Z18 8test_tb.sv
+Z19 Ftest_tb.sv
+L0 72
+R12
+r1
+!s85 0
+31
+!s108 1737774672.000000
+Z20 !s107 test_tb.sv|
+Z21 !s90 -reportprogress|300|test_tb.sv|
+!i113 0
+R16
+R2
+vserial_adder
+R5
+R6
+!i10b 1
+!s100 2_[_`J2Bj^jmS4RdhbmGQ3
+IGPI54gBSbXmVX9=8DZ4AE3
+R7
+R8
+S1
+R0
+R9
+R10
+R11
+L0 1
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R2
+vtb
+R5
+!s110 1737778229
+!i10b 1
+!s100 PE4jBSI@1Rb;XD0K?Q9TW0
+ILUm5_`lfRXYTQI3?[n2QX2
+R7
+R17
+S1
+R0
+w1737778214
+R18
+R19
+L0 1
+R12
+r1
+!s85 0
+31
+R13
+R20
+R21
+!i113 0
+R16
+R2

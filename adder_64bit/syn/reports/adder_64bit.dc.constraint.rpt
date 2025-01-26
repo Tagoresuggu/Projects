@@ -1,0 +1,20 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : adder_64bit
+Version: Q-2019.12-SP3
+Date   : Sat Jan 25 11:21:06 2025
+****************************************
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   adder_64bit                  0.00       117019440.00   -117019440.00
+                                                                    (VIOLATED)
+
+
+1
