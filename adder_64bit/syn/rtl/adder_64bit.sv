@@ -35,6 +35,7 @@ end
 
 always_comb 
 begin 
+	{A,B,temp_c,low_output,temp_cin,high_output,cout,sum} = '0;
    case(PS)
 		LOAD : begin  A = inp1[M-1:0]; B = inp2[M-1:0]; temp_c = 0; low_output = sum_a; temp_cin = cout_a; end
 		SHIFT: begin   temp_c = temp_cin;A = inp1[N-1:M]; B = inp2[N-1:M]; high_output = sum_a;  end
