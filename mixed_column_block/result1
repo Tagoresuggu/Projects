@@ -1,0 +1,82 @@
+# Reading C:/questasim64_10.6c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.6c win64 Jul 26 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+cd {C:/Users/student/Desktop/mixed_column_block}
+# reading modelsim.ini
+ls
+# mixed_column_block.sv  test                              
+# modelsim.ini           test_bench_mixed_column_block.sv  
+# run_mixcb.do                                             
+do run_mixcb.do
+# ** Warning: (vlib-34) Library already exists at "test".
+# QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap work test 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:31:02 on Feb 16,2025
+# vlog -reportprogress 300 mixed_column_block.sv -lint 
+# -- Compiling module mixed_column_block
+# -- Compiling module gf2m_multiplier
+# ** Warning: mixed_column_block.sv(43): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	mixed_column_block
+# End time: 15:31:02 on Feb 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:31:02 on Feb 16,2025
+# vlog -reportprogress 300 test_bench_mixed_column_block.sv -lint 
+# -- Compiling module test_bench_mixed_column_block
+# 
+# Top level modules:
+# 	test_bench_mixed_column_block
+# End time: 15:31:02 on Feb 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.test_bench_mixed_column_block 
+# Start time: 15:31:02 on Feb 16,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.test_bench_mixed_column_block(fast)
+# End time: 15:31:14 on Feb 16,2025, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.test_bench_mixed_column_block 
+# Start time: 15:31:14 on Feb 16,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.test_bench_mixed_column_block(fast)
+# Loading work.mixed_column_block(fast)
+# Loading work.gf2m_multiplier(fast)
+# Testing mixed cloumn
+# outputmixedcolumn[0][0] = 47
+# outputmixedcolumn[0][1] = 40
+# outputmixedcolumn[0][2] = a3
+# outputmixedcolumn[0][3] = 4c
+# outputmixedcolumn[1][0] = 37
+# outputmixedcolumn[1][1] = d4
+# outputmixedcolumn[1][2] = 70
+# outputmixedcolumn[1][3] = 9f
+# outputmixedcolumn[2][0] = 94
+# outputmixedcolumn[2][1] = e4
+# outputmixedcolumn[2][2] = 3a
+# outputmixedcolumn[2][3] = 42
+# outputmixedcolumn[3][0] = ed
+# outputmixedcolumn[3][1] = a5
+# outputmixedcolumn[3][2] = a6
+# outputmixedcolumn[3][3] = bc
+# -------------------------------------------
+# ** Note: $finish    : test_bench_mixed_column_block.sv(62)
+#    Time: 10 ns  Iteration: 0  Instance: /test_bench_mixed_column_block
+# 1
+# Break in Module test_bench_mixed_column_block at test_bench_mixed_column_block.sv line 62
