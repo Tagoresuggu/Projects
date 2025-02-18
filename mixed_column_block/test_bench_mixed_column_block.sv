@@ -6,7 +6,7 @@ module test_bench_mixed_column_block;
   logic [3:0][3:0][7:0] rotate_matrix;
   logic [3:0][3:0][7:0] outputmixedcolumn;
     
-    mixed_column_block uut (
+    mixed_column_block Dut (
         .input2mixedcolumn(input2mixedcolumn),
         .rotate_matrix(rotate_matrix),
         .outputmixedcolumn(outputmixedcolumn)
