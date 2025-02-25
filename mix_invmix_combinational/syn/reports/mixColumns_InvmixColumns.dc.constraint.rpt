@@ -1,0 +1,20 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : mixColumns_InvmixColumns
+Version: Q-2019.12-SP3
+Date   : Mon Feb 24 21:30:01 2025
+****************************************
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   mixColumns_InvmixColumns     0.00       80021096.00    -80021096.00
+                                                                    (VIOLATED)
+
+
+1

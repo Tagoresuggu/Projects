@@ -1,0 +1,24 @@
+# Cadence Genus(TM) Synthesis Solution, Version 23.10-p004_1, built Feb  1 2024 13:43:46
+
+# Date: Mon Feb 24 21:34:25 2025
+# Host: auto.ece.pdx.edu (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (1core*32cpus*32physical cpus*Intel Xeon Processor (Cascadelake) 16384KB)
+# OS:   CentOS Linux release 7.9.2009 (Core)
+
+set top_design mixColumns_InvmixColumns
+source ../scripts/genus-mix.tcl
+check_timing
+set_external_dealy 0.25 [all_inputs]
+man external_delay
+external_delay 0.25
+external_delay 0.25 - [all_inputs]
+external_delay 0.25 -[all_inputs]
+man external_delay
+man set_external_delay
+set top_design mixColumns_InvmixColumns
+source ../scripts/genus-mix.tcl
+set top_design mixColumns_InvmixColumns
+source ../scripts/genus-mix.tcl
+set top_design mixColumns_InvmixColumns
+source ../scripts/genus-mix.tcl
+check_timing
+exit
