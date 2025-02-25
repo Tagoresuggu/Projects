@@ -1,3 +1,5 @@
+//64 bit adder using one instance of 32bit.
+
 module adder_64bit #(parameter N = 64)(input clk , rst, input logic signed [N-1:0] inp1, logic signed [N-1:0] inp2, output logic signed [N-1:0] sum , logic cout);
 
 typedef enum logic[1:0] { LOAD = 2'b00 , SHIFT = 2'b01 , SUM_S = 2'b10 } state;
