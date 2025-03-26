@@ -1,0 +1,18 @@
+filename = 'area,slack,Mixcloumn.xlsx';
+data = readtable(filename, 'Sheet', 'Sheet1', 'VariableNamingRule', 'preserve');
+
+% Extract relevant rows and columns
+F35 = data{11:27, 8}; % Column H (8th column) - F(35) values
+AreaNorm = data{11:27, 10}; % Column J (10th column) - Area Normalised values
+
+% Convert to numeric and handle missing data
+F35 = cell2mat(F35);
+AreaNorm = cell2mat(AreaNorm);
+
+% Plot the data
+figure;
+plot(F35, AreaNorm, 'o-', 'LineWidth', 1.5);
+title('F(35) vs Area Normalised');
+xlabel('F(35)');
+ylabel('Area Normalised');
+grid on;
